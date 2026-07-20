@@ -4,28 +4,28 @@
 class Kprompt < Formula
   desc "AI CLI to control Kubernetes with natural language"
   homepage "https://kprompt.ai"
-  version "0.3.0"
+  version "0.4.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/kprompt/kprompt/releases/download/v0.3.0/kprompt_0.3.0_darwin_arm64.tar.gz"
-      sha256 "df50c6af86e0fc84f00c278df55394a8cfdf3158f745249c2ec6d9fe3abbc1fc"
+      url "https://github.com/kprompt/kprompt/releases/download/v0.4.0/kprompt_0.4.0_darwin_arm64.tar.gz"
+      sha256 "7e1302d929af5c25fd5b529608cf61865ddecfd710fba1aadbbc9e13e88df268"
     end
     on_intel do
-      url "https://github.com/kprompt/kprompt/releases/download/v0.3.0/kprompt_0.3.0_darwin_amd64.tar.gz"
-      sha256 "7acf30abb432f40cfb756b2b4f403d0ccc167abc7b44fd1aa07a803380ac8ff1"
+      url "https://github.com/kprompt/kprompt/releases/download/v0.4.0/kprompt_0.4.0_darwin_amd64.tar.gz"
+      sha256 "a4d0ffb34d993cee1b49d494bc74ca2f9f82e55cae69c3db930a018b91c9509b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/kprompt/kprompt/releases/download/v0.3.0/kprompt_0.3.0_linux_arm64.tar.gz"
-      sha256 "54ad78ba22ac95c2b2d7e89797517ea72a3301a7fcc6cb25ec116e2fa53f037c"
+      url "https://github.com/kprompt/kprompt/releases/download/v0.4.0/kprompt_0.4.0_linux_arm64.tar.gz"
+      sha256 "39dc3553596a562f7389dda03b5c06e3164ce210ca5829cd5fd71dbe937c36ee"
     end
     on_intel do
-      url "https://github.com/kprompt/kprompt/releases/download/v0.3.0/kprompt_0.3.0_linux_amd64.tar.gz"
-      sha256 "f530b44cb1e61db0087d853ec3234870f99bba0808ea35e4dfbf0144d3052023"
+      url "https://github.com/kprompt/kprompt/releases/download/v0.4.0/kprompt_0.4.0_linux_amd64.tar.gz"
+      sha256 "31432b9e240b673d779fcf4546cb5727efb593904beb11b028b23a5101d150f3"
     end
   end
 
