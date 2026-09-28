@@ -5,21 +5,21 @@
 class Kprompt < Formula
   desc "AI CLI to control Kubernetes with natural language"
   homepage "https://kprompt.ai"
-  version "0.12.2"
+  version "0.12.3"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/kprompt/kprompt/releases/download/v0.12.2/kprompt_0.12.2_darwin_amd64.tar.gz"
-      sha256 "633a2fdfa8ce462fe46cb4dadfca92a7061bfaadd5057679d1656540e7cafb05"
+      url "https://github.com/kprompt/kprompt/releases/download/v0.12.3/kprompt_0.12.3_darwin_amd64.tar.gz"
+      sha256 "8a12b6b3867dd8473dbbe66245f6c988961de68e4316c169b1bcb000a86d5330"
 
       define_method(:install) do
         bin.install "kprompt"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/kprompt/kprompt/releases/download/v0.12.2/kprompt_0.12.2_darwin_arm64.tar.gz"
-      sha256 "c3c126d324451186d828ee95a93b202b843304aa51c0d659a828c4756e3bf359"
+      url "https://github.com/kprompt/kprompt/releases/download/v0.12.3/kprompt_0.12.3_darwin_arm64.tar.gz"
+      sha256 "822fa6a33eabb5c331b7c681280fc5be04ac1e95d19d10c1f35c8a297e4759e1"
 
       define_method(:install) do
         bin.install "kprompt"
@@ -29,15 +29,15 @@ class Kprompt < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/kprompt/kprompt/releases/download/v0.12.2/kprompt_0.12.2_linux_amd64.tar.gz"
-      sha256 "3f44d7e902e063d4323b947a640a05127f0957ba4bf92eb9b41ab6e1431a45c8"
+      url "https://github.com/kprompt/kprompt/releases/download/v0.12.3/kprompt_0.12.3_linux_amd64.tar.gz"
+      sha256 "4f7ad397b84dfc89446898d31baeda42fecc3d7cf8aae197813e81d3cb43c38d"
       define_method(:install) do
         bin.install "kprompt"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/kprompt/kprompt/releases/download/v0.12.2/kprompt_0.12.2_linux_arm64.tar.gz"
-      sha256 "f20426117c8ead57d716ed028fd6fbf2163eb93d972af53daf2ea9aed642ac32"
+      url "https://github.com/kprompt/kprompt/releases/download/v0.12.3/kprompt_0.12.3_linux_arm64.tar.gz"
+      sha256 "924fc213be3bdebea1e533fddcdc330a4480747f740d2bd2da37836afcede08b"
       define_method(:install) do
         bin.install "kprompt"
       end
