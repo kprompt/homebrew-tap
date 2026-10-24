@@ -1,4 +1,5 @@
 ## [Unreleased]
 
 ### Added
-- Refreshed default model to version 1.1.0 with updated parameters and metadata. ([#3](https://github.com/your-repo/issues/3))
+- Implemented automatic refresh of stale default models (P-007).
+- Added tests covering stale detection and refresh logic for default models.
