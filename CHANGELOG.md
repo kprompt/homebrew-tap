@@ -1,4 +1,6 @@
 ## [Unreleased]
 
 ### Added
-- Refreshed default model to version 1.1.0 with updated parameters and metadata. ([#3](https://github.com/your-repo/issues/3))
+- Amazon Bedrock compatibility provider with `GenerateText` API support.
+- Unit tests covering success, error, and edge cases for Amazon Bedrock client.
+- User documentation for Amazon Bedrock provider usage.
