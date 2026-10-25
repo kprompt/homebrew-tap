@@ -1,4 +1,7 @@
 ## [Unreleased]
 
 ### Added
-- Refreshed default model to version 1.1.0 with updated parameters and metadata. ([#3](https://github.com/your-repo/issues/3))
+- Added Amazon Bedrock provider with compatibility path for text generation (P-008).
+- Implemented BedrockClient with HTTP integration and error handling.
+- Added unit tests covering success and error cases.
+- Added user-facing documentation for Amazon Bedrock provider.
