@@ -1,4 +1,6 @@
 ## [Unreleased]
 
 ### Added
-- Refreshed default model to version 1.1.0 with updated parameters and metadata. ([#3](https://github.com/your-repo/issues/3))
+- Amazon Bedrock provider integration with compatibility path (P-008).
+- Unit tests covering request, response, and error handling for Amazon Bedrock provider.
+- User documentation for Amazon Bedrock provider usage.
