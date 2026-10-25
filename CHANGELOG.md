@@ -1,4 +1,6 @@
 ## [Unreleased]
 
 ### Added
-- Refreshed default model to version 1.1.0 with updated parameters and metadata. ([#3](https://github.com/your-repo/issues/3))
+- Implemented Amazon Bedrock Enterprise Deferred provider (P-008) with compatibility path (#21)
+- Added tests covering provider generation and error handling
+- Added user documentation for Amazon Bedrock provider
