@@ -1,4 +1,6 @@
 ## [Unreleased]
 
 ### Added
-- Refreshed default model to version 1.1.0 with updated parameters and metadata. ([#3](https://github.com/your-repo/issues/3))
+- P-008: Added Amazon Bedrock provider with compatibility path for enterprise deferred architecture.
+- Added GenerateText API client with tests.
+- Added user documentation for Amazon Bedrock provider.
