@@ -1,4 +1,7 @@
 ## [Unreleased]
 
 ### Added
-- Refreshed default model to version 1.1.0 with updated parameters and metadata. ([#3](https://github.com/your-repo/issues/3))
+- Amazon Bedrock provider integration with compatible completion path.
+- `AmazonBedrockProvider` Go implementation with support for model completions.
+- Comprehensive unit tests covering success and failure scenarios.
+- User-facing documentation for Amazon Bedrock provider usage and configuration.
